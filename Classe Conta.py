@@ -18,7 +18,6 @@ class Conta
             else:
                 print ('Valor inválido para depósito.')
 
-
     def sacar(self,valor):
         if self.status == False:
             print(f'{self.nome} não possui conta ativa.')
